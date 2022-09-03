@@ -1,6 +1,5 @@
 from flask import Flask, Blueprint, jsonify
 from flask_cors import CORS
-from flask_pymongo import pymongo
 from crud_app_routes.routes import crud_app_api
 
 
